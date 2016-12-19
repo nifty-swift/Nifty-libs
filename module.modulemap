@@ -1,0 +1,11 @@
+module CLapacke [system] {
+  header "./include/lapacke.h"
+  link "lapacke"
+  export *
+}
+
+module CBlas [system] {
+  header "./include/cblas.h"
+  link "blas"
+  export *
+}
