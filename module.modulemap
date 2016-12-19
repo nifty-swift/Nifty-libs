@@ -6,6 +6,6 @@ module CLapacke [system] {
 
 module CBlas [system] {
   header "./include/cblas.h"
-  link "blas"
+  link "openblas"
   export *
 }
