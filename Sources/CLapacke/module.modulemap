@@ -1,0 +1,5 @@
+module CLapacke [system] {
+  header "lapacke.h"
+  link "lapacke"
+  export *
+}
