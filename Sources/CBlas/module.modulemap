@@ -1,0 +1,5 @@
+module CBlas [system] {
+  header "../include/cblas.h"
+  link "openblas"
+  export *
+}
